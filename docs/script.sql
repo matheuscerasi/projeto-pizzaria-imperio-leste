@@ -100,7 +100,10 @@ CREATE TABLE pizza_concorrente (
 CREATE TABLE cliente (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(120) NOT NULL,
+    cpf VARCHAR(14) UNIQUE,
+    cep VARCHAR(9),
     telefone VARCHAR(20),
+    whatsapp VARCHAR(20),
     email VARCHAR(120) UNIQUE,
     endereco VARCHAR(200),
     data_cadastro DATE NOT NULL,
@@ -109,12 +112,13 @@ CREATE TABLE cliente (
 
 CREATE TABLE venda (
     id_venda INT AUTO_INCREMENT PRIMARY KEY,
-    id_cliente INT NOT NULL,
+    id_cliente INT NULL,
     data_venda DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     observacao VARCHAR(255),
+
     CONSTRAINT fk_venda_cliente FOREIGN KEY (id_cliente)
       REFERENCES cliente(id_cliente)
-      ON UPDATE CASCADE ON DELETE RESTRICT
+      ON UPDATE CASCADE ON DELETE SET NULL
 ) ENGINE=InnoDB;
 
 CREATE TABLE item_venda (
