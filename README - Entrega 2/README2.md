@@ -214,7 +214,7 @@ O grupo informou que **não recebeu apontamentos específicos do professor na En
 |---|---|---|---|---|
 | Revisão da Entrega 1 | ChatGPT | Identificar inconsistências no dicionário e lacunas de modelagem. | Revisar o levantamento e apontar inconsistências entre entidades e atributos. | O grupo deve conferir cada ponto com o documento original e validar com o responsável. |
 | Modelagem | ChatGPT | Propor entidades e relacionamentos coerentes com o escopo. | Propor DER para controle de custos e precificação de pizzaria, sem presumir processos comerciais não confirmados. | Modelo é proposta acadêmica, não descrição comprovada do processo atual. |
-| SQL | ChatGPT | Criar script inicial para testar estrutura e consultas. | Gerar script MySQL 8.0 com tabelas, chaves, dados fictícios e consultas gerenciais. | Executar no MySQL, corrigir erros e revisar resultados. |
+| SQL | MySQL | Criar script inicial para testar estrutura e consultas. | Gerar script MySQL 8.0 com tabelas, chaves, dados fictícios e consultas gerenciais. | Executar no MySQL, corrigir erros e revisar resultados. |
 | Documentação | ChatGPT | Organizar requisitos, rastreabilidade e explicações. | Estruturar README técnico com requisitos, normalização, KPIs e rastreabilidade. | Grupo deve revisar linguagem, fontes, fatos e aderência ao enunciado. |
 
 **Fontes verificadas:** PREENCHER com as fontes realmente consultadas pelo grupo. Não declarar validação externa que não ocorreu.
