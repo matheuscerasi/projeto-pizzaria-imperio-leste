@@ -5,12 +5,12 @@
 
 ## 1. Identificação do grupo
 
-| Integrante | RGM | GitHub |
+| Integrante | GitHub |
 |---|---|---|
-| Matheus Cerasi Rodrigues | | [matheuscerasi](https://github.com/matheuscerasi) |
-| Eduardo Correa | PREENCHER | [educorrea08](https://github.com/educorrea08) |
-| Ryan Mangeth de Lima | | [ryanmangeth](https://github.com/ryanmangeth) |
-| Leonardo Oliveira Rodrigues |  | [rodrigueskl](https://github.com/rodrigueskl) |
+| Matheus Cerasi Rodrigues | [matheuscerasi](https://github.com/matheuscerasi) |
+| Eduardo Correa | [educorrea08](https://github.com/educorrea08) |
+| Ryan Mangeth de Lima | [ryanmangeth](https://github.com/ryanmangeth) |
+| Leonardo Oliveira Rodrigues | [rodrigueskl](https://github.com/rodrigueskl) |
 
 ## 2. Organização e problema
 
@@ -239,7 +239,7 @@ O grupo informou que **não recebeu apontamentos específicos do professor na En
 
 ```text
 /
-├── README.md
+├── README2.md
 ├── dicionario_de_dados.md
 ├── levantamento/
 │   └── levantamento.md
@@ -249,7 +249,7 @@ O grupo informou que **não recebeu apontamentos específicos do professor na En
 ├── docs/
 │   └── script.sql
 ├── massa_de_dados/
-│   └── README.md
+│   └── README2.md
 └── evidencias/
-    └── README.md
+    └── README2.md
 ```
