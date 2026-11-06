@@ -7,10 +7,10 @@
 
 | Integrante | RGM | GitHub |
 |---|---|---|
-| Matheus Cerasi Rodrigues | |  |[matheuscerasi](https://github.com/matheuscerasi) |
+| Matheus Cerasi Rodrigues | | [matheuscerasi](https://github.com/matheuscerasi) |
 | Eduardo Correa | PREENCHER | |[educorrea08](https://github.com/educorrea08) |
 | Ryan Mangeth de Lima | | [ryanmangeth](https://github.com/ryanmangeth) |
-| Leonardo Oliveira Rodrigues |  | |[rodrigueskl](https://github.com/rodrigueskl) |
+| Leonardo Oliveira Rodrigues |  | [rodrigueskl](https://github.com/rodrigueskl) |
 
 ## 2. Organização e problema
 
