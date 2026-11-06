@@ -7,16 +7,14 @@
 
 | Integrante | RGM | GitHub |
 |---|---|---|
-| Matheus Cerasi Rodrigues | PREENCHER | PREENCHER |
-| Eduardo Correa | PREENCHER | PREENCHER |
-| Ryan Mangeth de Lima | PREENCHER | [ryanmangeth](https://github.com/ryanmangeth) |
-| Leonardo Oliveira Rodrigues | PREENCHER | PREENCHER |
+| Matheus Cerasi Rodrigues | |  |
+| Eduardo Correa | PREENCHER | |
+| Ryan Mangeth de Lima | | [ryanmangeth](https://github.com/ryanmangeth) |
+| Leonardo Oliveira Rodrigues |  | |
 
 ## 2. Organização e problema
 
-A organização escolhida na Entrega 1 foi a **Império Leste Pizzaria**, localizada na Rua Professor Antônio de Castro Lopes, 42, Ermelino Matarazzo, São Paulo/SP, CEP 03805-080. O telefone comercial informado na primeira entrega foi (11) 95637-2778. Site: https://www.imperiolestepizzaria.com.br/. Instagram: https://www.instagram.com/pizzariaimperioleste/.
-
-A Entrega 1 caracterizou a organização como empresa com fins lucrativos, de pequeno porte, com quatro funcionários e média informada de 20 a 25 pedidos por dia. Esses dados devem ser confirmados com o responsável antes da entrega final.
+A organização escolhida na Entrega 1 foi a **Império Leste Pizzaria** e foi caracterizada como empresa com fins lucrativos, de pequeno porte, com quatro funcionários e média informada de 20 a 25 pedidos por dia. Esses dados devem ser confirmados com o responsável antes da entrega final.
 
 ### Problema central (P1)
 
