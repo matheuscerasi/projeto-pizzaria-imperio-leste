@@ -6,7 +6,7 @@
 ## 1. Identificação do grupo
 
 | Integrante | GitHub |
-|---|---|---|
+|---|---|
 | Matheus Cerasi Rodrigues | [matheuscerasi](https://github.com/matheuscerasi) |
 | Eduardo Correa | [educorrea08](https://github.com/educorrea08) |
 | Ryan Mangeth de Lima | [ryanmangeth](https://github.com/ryanmangeth) |
