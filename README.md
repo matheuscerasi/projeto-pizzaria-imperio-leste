@@ -325,3 +325,126 @@ Esse fluxo representa o processo de negócio estudado e a proposta de apoio à d
 **Nem todas as etapas do fluxograma representam necessariamente funcionalidades automatizadas na versão atual da aplicação.**
 
 ---
+
+## 📁 10. Organização do Repositório
+
+O repositório mantém os materiais acadêmicos, os arquivos do banco de dados e a documentação do sistema.
+
+```text
+projeto-pizzaria-imperio-leste/
+│
+├── README.md
+│
+├── README - Entrega 1/
+├── README - Entrega 2/
+│
+├── banco-de-dados/
+│   ├── app.py
+│   ├── main.sql
+│   ├── banco.db
+│   ├── criar_banco.py
+│   ├── verificar_banco.py
+│   └── templates/
+│       ├── index.html
+│       ├── produtos.html
+│       ├── ingredientes.html
+│       ├── clientes.html
+│       ├── vendas.html
+│       └── ...
+│
+├── documentos/
+├── Arquivos de Mídia/
+├── FLUXOGRAMA.jpeg
+└── Link Site.md
+```
+
+A estrutura acima apresenta os principais arquivos e diretórios identificados durante o desenvolvimento.
+
+---
+
+## 🌐 11. Acesso à Aplicação
+
+O sistema está publicado na plataforma **PythonAnywhere**.
+
+### Link oficial
+
+**[🍕 Acessar Sistema Império Leste Pizzaria](https://matheuscerasi.pythonanywhere.com/)**
+
+A aplicação é destinada ao uso administrativo do estabelecimento, permitindo consultar e registrar informações relacionadas à gestão interna.
+
+---
+
+## 🧪 12. Dados de Teste e Validação
+
+O banco contém registros fictícios utilizados para apoiar o desenvolvimento e a verificação da estrutura.
+
+Entre os dados de exemplo estão:
+
+- Pizzas de Calabresa, Muçarela e Especial.
+- Ingredientes utilizados nas receitas.
+- Margens de lucro ativas e inativas.
+- Custos fixos do estabelecimento.
+- Concorrentes fictícios.
+- Clientes fictícios.
+- Registros de vendas e respectivos itens.
+
+Esses registros são utilizados para fins acadêmicos e de teste, não devendo ser interpretados como dados comerciais reais da pizzaria.
+
+O projeto também possui um script Python destinado à conferência de relacionamentos entre tabelas no SQLite.
+
+---
+
+## 📋 13. Requisitos e Regras de Negócio
+
+### Requisitos Funcionais
+
+- **RF01:** Permitir o cadastro e a consulta de produtos.
+- **RF02:** Permitir o gerenciamento de ingredientes.
+- **RF03:** Manter registros de custos fixos.
+- **RF04:** Manter informações sobre margens de lucro.
+- **RF05:** Registrar concorrentes e preços comparáveis.
+- **RF06:** Permitir o cadastro e a consulta de clientes.
+- **RF07:** Registrar vendas realizadas pelo estabelecimento.
+- **RF08:** Associar produtos às vendas.
+- **RF09:** Disponibilizar informações resumidas no dashboard.
+
+### Requisitos Não Funcionais
+
+- **RNF01:** Disponibilizar interface web de fácil navegação.
+- **RNF02:** Utilizar banco de dados relacional.
+- **RNF03:** Preservar a integridade dos relacionamentos.
+- **RNF04:** Organizar o código para facilitar sua manutenção.
+- **RNF05:** Prever controle de acesso às funções administrativas.
+
+### Regras de Negócio
+
+- **RN01:** Cada produto deve possuir um identificador único.
+- **RN02:** Os custos unitários dos ingredientes devem ser positivos.
+- **RN03:** As quantidades utilizadas nas receitas devem ser positivas.
+- **RN04:** O preço de venda cadastrado deve ser maior que zero.
+- **RN05:** Uma venda pode ser registrada sem cliente associado.
+- **RN06:** Cada item de venda deve estar associado a uma venda e a um produto.
+- **RN07:** A quantidade de itens vendidos deve ser positiva.
+- **RN08:** O preço unitário do item deve ser armazenado no registro da venda.
+- **RN09:** A alteração de preços deve ser restrita aos responsáveis autorizados, conforme a política administrativa prevista.
+
+---
+
+## ⚠️ 14. Limitações e Melhorias Futuras
+
+O projeto possui funcionalidades administrativas desenvolvidas e outras possibilidades de evolução.
+
+Entre as melhorias que podem ser consideradas estão:
+
+- Implementar controle detalhado de entradas e saídas de estoque.
+- Automatizar cálculos de custo e sugestão de preço.
+- Implementar autenticação e autorização de usuários.
+- Ampliar relatórios gerenciais e indicadores.
+- Desenvolver mecanismos de auditoria.
+- Criar rotinas de backup e recuperação.
+- Expandir os testes automatizados.
+- Aprimorar a validação das operações de venda.
+
+Esses itens representam oportunidades de melhoria e não devem ser confundidos com funcionalidades já concluídas.
+
+---
