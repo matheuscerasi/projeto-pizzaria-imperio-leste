@@ -491,9 +491,23 @@ O uso dessas ferramentas não substitui a análise dos requisitos, as decisões 
 
 ## 👥 17. Equipe de Desenvolvimento
 
-Projeto acadêmico desenvolvido em grupo, no contexto da disciplina de Prototipagem de Sistemas Computacionais.
+O projeto **Império Leste Pizzaria** foi desenvolvido por estudantes do curso de **Ciência da Computação da Universidade Cidade de São Paulo (UNICID)**, como parte da disciplina de Prototipagem de Sistemas Computacionais.
 
-A identificação completa dos integrantes e a distribuição de responsabilidades devem seguir os registros oficiais da equipe na Entrega 2.
+### Integrantes do Grupo
+
+| Nome completo | RGM | GitHub |
+|---|---|---|
+| Matheus Cerasi Rodrigues | 47495821 | [@matheuscerasi](https://github.com/matheuscerasi) |
+| Ryan Mangeth de Lima | 48348881 | [@ryanmangeth](https://github.com/ryanmangeth) |
+| Leonardo Oliveira Rodrigues | 47569590 | [@rodrigueskl](https://github.com/rodrigueskl) |
+| Eduardo Correa | 47674245 | [@educorrea08](https://github.com/educorrea08) |
+
+### Instituição de Ensino
+
+- **Universidade:** Universidade Cidade de São Paulo (UNICID)
+- **Curso:** Bacharelado em Ciência da Computação
+- **Disciplina:** Prototipagem de Sistemas Computacionais
+- **Projeto:** Sistema de Precificação e Controle Administrativo — Império Leste Pizzaria
 
 ---
 
