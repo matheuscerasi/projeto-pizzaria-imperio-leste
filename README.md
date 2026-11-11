@@ -259,3 +259,69 @@ Ele permite visualizar as tabelas, os identificadores e os relacionamentos neces
 **[🔗 Visualizar Modelo Lógico no brModelo Web](https://app.brmodeloweb.com/publicview/6af4d275e43309563f04a65d)**
 
 ---
+## 🧱 8. Estrutura do Banco de Dados
+
+O script SQLite apresentado no projeto contém **11 tabelas**.
+
+| Tabela | Finalidade |
+|---|---|
+| `produto` | Armazenar os produtos comercializados |
+| `ingrediente` | Registrar os ingredientes e seus custos |
+| `item_receita` | Associar ingredientes aos produtos |
+| `margem_lucro` | Registrar percentuais de margem |
+| `custo_fixo` | Armazenar despesas fixas |
+| `concorrente` | Cadastrar estabelecimentos concorrentes |
+| `pizza_concorrente` | Registrar preços coletados para comparação |
+| `cliente` | Armazenar informações dos clientes |
+| `venda` | Registrar operações de venda |
+| `item_venda` | Identificar os produtos e quantidades de cada venda |
+| `usuario_autorizado` | Representar usuários e permissões previstas no banco |
+
+### Relacionamentos principais
+
+- Uma margem de lucro pode ser associada a vários produtos.
+- Um produto pode utilizar vários ingredientes.
+- Um ingrediente pode participar de diferentes receitas.
+- Um concorrente pode possuir diversos registros de preços.
+- Um produto pode ser comparado com diferentes ofertas concorrentes.
+- Um cliente pode estar associado a várias vendas.
+- Uma venda pode possuir vários itens.
+- Cada item de venda referencia um produto.
+
+### Integridade dos Dados
+
+O banco utiliza mecanismos como:
+
+- Chaves primárias.
+- Chaves estrangeiras.
+- Restrições `NOT NULL`.
+- Restrições `UNIQUE`.
+- Restrições `CHECK`.
+- Regras de atualização e exclusão referencial.
+
+Esses mecanismos ajudam a reduzir inconsistências e manter a integridade dos registros.
+
+---
+
+## 🔄 9. Processo de Precificação
+
+O processo de precificação estudado considera diferentes informações administrativas.
+
+### Etapas do processo
+
+1. Coleta e atualização das informações.
+2. Levantamento dos custos fixos e variáveis.
+3. Definição da margem de lucro.
+4. Análise dos preços da concorrência.
+5. Consideração do valor percebido pelo cliente.
+6. Processamento das informações para apoiar a definição de preços.
+7. Avaliação da viabilidade do preço sugerido.
+8. Aprovação ou necessidade de ajustes.
+9. Acompanhamento dos resultados.
+10. Consulta de relatórios e indicadores.
+
+Esse fluxo representa o processo de negócio estudado e a proposta de apoio à decisão.
+
+**Nem todas as etapas do fluxograma representam necessariamente funcionalidades automatizadas na versão atual da aplicação.**
+
+---
