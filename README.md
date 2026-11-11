@@ -448,3 +448,75 @@ Entre as melhorias que podem ser consideradas estão:
 Esses itens representam oportunidades de melhoria e não devem ser confundidos com funcionalidades já concluídas.
 
 ---
+
+## 📚 15. Documentação Acadêmica
+
+O repositório preserva os documentos das etapas do projeto.
+
+### Entrega 1
+
+Contém os materiais relacionados ao levantamento inicial do estabelecimento, à identificação dos problemas e à proposta de modelagem.
+
+### Entrega 2
+
+Contém a evolução da documentação, da modelagem e da implementação do sistema.
+
+### Diagramas
+
+- [Modelo Conceitual](https://app.brmodeloweb.com/publicview/6af4cfe1e43309563f04a62a)
+- [Modelo Lógico](https://app.brmodeloweb.com/publicview/6af4d275e43309563f04a65d)
+
+Os documentos originais das entregas foram preservados para manter o histórico do desenvolvimento acadêmico.
+
+---
+
+## 🤖 16. Utilização de Inteligência Artificial
+
+Durante o desenvolvimento, ferramentas de inteligência artificial foram utilizadas como apoio ao aprendizado e à organização das atividades.
+
+Entre as formas de apoio estão:
+
+- Esclarecimento de conceitos de modelagem de dados.
+- Exemplos de organização de documentação técnica.
+- Orientações sobre relacionamentos e cardinalidades.
+- Apoio à compreensão de SQL.
+- Revisão de estruturas e sugestões de melhoria.
+- Orientações sobre Git e GitHub.
+
+As sugestões fornecidas por ferramentas de IA devem ser avaliadas e verificadas antes de sua utilização no projeto.
+
+O uso dessas ferramentas não substitui a análise dos requisitos, as decisões de modelagem e a validação realizada pelos integrantes do grupo.
+
+---
+
+## 👥 17. Equipe de Desenvolvimento
+
+Projeto acadêmico desenvolvido em grupo, no contexto da disciplina de Prototipagem de Sistemas Computacionais.
+
+A identificação completa dos integrantes e a distribuição de responsabilidades devem seguir os registros oficiais da equipe na Entrega 2.
+
+---
+
+## 📌 18. Considerações Finais
+
+O projeto Império Leste Pizzaria representa a aplicação prática de conhecimentos de análise de requisitos, modelagem de banco de dados, programação e desenvolvimento web.
+
+A solução desenvolvida organiza informações relevantes para a administração do estabelecimento, especialmente aquelas relacionadas aos produtos, custos, margens de lucro, concorrência e vendas.
+
+A experiência também contribuiu para o desenvolvimento de competências em documentação técnica, organização de projetos, trabalho em equipe e utilização de ferramentas de desenvolvimento.
+
+O sistema constitui uma base para futuras melhorias na gestão administrativa e na análise dos resultados da pizzaria.
+
+---
+
+<div align="center">
+
+### 🍕 Império Leste Pizzaria
+
+**Sistema de Precificação e Controle Administrativo**
+
+Desenvolvido para fins acadêmicos.
+
+**[Acessar Aplicação](https://matheuscerasi.pythonanywhere.com/)**
+
+</div>
