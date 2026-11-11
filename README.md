@@ -127,3 +127,135 @@ Consultas e registros administrativos
 ```
 
 ---
+## ⚙️ 6. Funcionalidades do Sistema
+
+### 📊 Dashboard
+
+O sistema possui uma página inicial administrativa que apresenta informações resumidas sobre os registros existentes.
+
+Entre os indicadores identificados estão:
+
+- Quantidade de produtos cadastrados.
+- Quantidade de ingredientes.
+- Quantidade de clientes.
+- Quantidade de vendas registradas.
+
+### 🍕 Gestão de Produtos
+
+O projeto contém interfaces destinadas ao gerenciamento dos produtos.
+
+Foram identificadas páginas para:
+
+- Listagem de produtos.
+- Cadastro de novos produtos.
+- Edição de produtos.
+- Consulta de preços de venda.
+- Identificação da situação dos produtos.
+
+### 🧀 Gestão de Ingredientes
+
+O sistema organiza informações relacionadas aos ingredientes utilizados na produção.
+
+O banco de dados contempla:
+
+- Nome do ingrediente.
+- Unidade de medida.
+- Custo unitário.
+- Fornecedor.
+- Data de atualização.
+- Situação do cadastro.
+
+### 💰 Custos Fixos
+
+A estrutura de dados permite registrar despesas fixas do estabelecimento.
+
+Entre os exemplos utilizados nos testes estão aluguel, salários e despesas com energia e água.
+
+Cada registro possui valor mensal, período de vigência e situação.
+
+### 📈 Margens de Lucro
+
+O sistema contempla o cadastro de margens de lucro, permitindo associar uma margem aos produtos.
+
+A estrutura inclui:
+
+- Descrição da margem.
+- Percentual.
+- Data de início.
+- Data de término.
+- Situação.
+
+### 🏪 Análise de Concorrentes
+
+O banco permite registrar concorrentes e preços de pizzas comparáveis.
+
+As informações incluem:
+
+- Concorrente.
+- Produto de referência.
+- Nome da pizza concorrente.
+- Preço praticado.
+- Data da coleta.
+- Fonte da informação.
+
+Esses registros servem como apoio à análise de preços.
+
+### 👥 Gestão de Clientes
+
+A aplicação possui interfaces para cadastro e consulta de clientes.
+
+O banco contempla:
+
+- Nome.
+- CPF.
+- CEP.
+- Telefone.
+- WhatsApp.
+- E-mail.
+- Endereço.
+- Data de cadastro.
+- Situação.
+
+O sistema permite registrar vendas sem obrigatoriedade de associá-las a um cliente cadastrado, conforme a estrutura do banco.
+
+### 🛒 Registro de Vendas
+
+O módulo de vendas permite organizar os registros comerciais realizados pelo estabelecimento.
+
+O banco armazena:
+
+- Identificador da venda.
+- Cliente associado, quando informado.
+- Data e horário.
+- Observações.
+- Produtos vendidos.
+- Quantidades.
+- Preços unitários registrados na venda.
+
+O armazenamento do preço unitário no item de venda permite preservar o valor praticado no momento do registro.
+
+---
+
+## 🗃️ 7. Modelagem do Banco de Dados
+
+A modelagem foi desenvolvida para representar as informações utilizadas pelo sistema e os relacionamentos entre elas.
+
+Foram elaborados dois modelos utilizando o **brModelo Web**.
+
+### 7.1. Modelo Conceitual
+
+O modelo conceitual apresenta as entidades, seus atributos, relacionamentos e cardinalidades.
+
+Ele representa as regras de relacionamento entre os dados, independentemente da implementação física.
+
+**[🔗 Visualizar Modelo Conceitual no brModelo Web](https://app.brmodeloweb.com/publicview/6af4cfe1e43309563f04a62a)**
+
+### 7.2. Modelo Lógico
+
+O modelo lógico apresenta a estrutura relacional utilizada como referência para o banco de dados.
+
+Ele permite visualizar as tabelas, os identificadores e os relacionamentos necessários à implementação.
+
+**[🔗 Visualizar Modelo Lógico no brModelo Web](https://app.brmodeloweb.com/publicview/6af4d275e43309563f04a65d)**
+
+---
