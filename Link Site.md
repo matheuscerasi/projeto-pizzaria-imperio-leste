@@ -29,8 +29,3 @@ Projeto acadêmico desenvolvido com o objetivo de aplicar conhecimentos em banco
 
 ## 🚀 Deploy
 O sistema está hospedado no PythonAnywhere e pode ser acessado publicamente pelo link disponibilizado acima.
-
-## 👨‍💻 Desenvolvedor
-Matheus Cerasi Rodrigues
-
-Projeto desenvolvido para fins acadêmicos e de aprendizado.
