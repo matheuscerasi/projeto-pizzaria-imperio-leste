@@ -5,7 +5,7 @@ Apresentação acadêmica do projeto de Sistema de Precificação e Controle Adm
 
 ## Visualizar apresentação
 
-[📊 Abrir apresentação no Canva](https://canva.link/d5mz7d2lda8fm21)
+[📊 Abrir apresentação no Canva](https://canva.link/56udckm7te0nayw)
 
 ## Conteúdo
 
