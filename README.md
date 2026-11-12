@@ -533,4 +533,31 @@ Desenvolvido para fins acadêmicos.
 
 **[Acessar Site](https://matheuscerasi.pythonanywhere.com/)**
 
+---
+
+## Banco de Dados — SQLite e MySQL
+
+O projeto Império Leste Pizzaria possui duas versões de seu banco de dados, organizadas na pasta `banco-de-dados`.
+
+### SQLite
+
+O arquivo `main.sql` contém a estrutura original do banco de dados utilizado pela aplicação web desenvolvida em Python e Flask.
+
+### MySQL 8.0
+
+O arquivo `imperio_leste_mysql.sql` apresenta uma adaptação da estrutura original para MySQL 8.0, mantendo as 11 tabelas, seus relacionamentos e os dados fictícios utilizados nos testes.
+
+A execução foi realizada no MySQL Workbench, permitindo verificar a criação das tabelas, a integridade dos relacionamentos e a inserção dos registros.
+
+### Consultas gerenciais e de auditoria
+
+O arquivo `consultas_mysql.sql` contém consultas utilizadas para analisar as informações armazenadas no banco.
+
+Entre elas, destacam-se:
+
+- **G06:** compara o preço de venda dos produtos com o custo dos ingredientes utilizados em suas receitas.
+- **A01:** identifica vendas que não possuem itens cadastrados, auxiliando na verificação da integridade dos registros.
+
+A versão MySQL é utilizada para testes e demonstrações acadêmicas, sem substituir o banco SQLite da aplicação publicada.
+
 </div>
