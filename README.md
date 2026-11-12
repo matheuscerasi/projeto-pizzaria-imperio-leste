@@ -531,6 +531,6 @@ O sistema constitui uma base para futuras melhorias na gestão administrativa e 
 
 Desenvolvido para fins acadêmicos.
 
-**[Acessar Aplicação](https://matheuscerasi.pythonanywhere.com/)**
+**[Acessar Site](https://matheuscerasi.pythonanywhere.com/)**
 
 </div>
